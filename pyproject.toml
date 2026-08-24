@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awrena"
+version = "0.1.0"
+description = "Run one judged head-to-head between two agents and read the scored verdict."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+# No external dependencies. A judge that needs an external service is one that
+# fails when the service is unreachable. This brick provides scoring logic that
+# strangers can extend; it doesn't require their infrastructure.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+awrena = "awrena.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Aitherium/awrena"
+Documentation = "https://github.com/Aitherium/awrena#readme"
+Repository = "https://github.com/Aitherium/awrena.git"
+Issues = "https://github.com/Aitherium/awrena/issues"
+
+[tool.setuptools]
+packages = ["awrena"]
