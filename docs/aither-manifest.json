@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1",
+  "name": "awrena",
+  "description": "Put two agents head to head and get a verdict you can check.",
+  "url": "https://aitherium.github.io/awrena/",
+  "repository": "https://github.com/Aitherium/awrena",
+  "kind": "tool",
+  "status": "public",
+  "adopt": "Run one judged head-to-head between two agents and read the scored verdict.",
+  "pairs_with": [
+    "awrelay",
+    "awnest",
+    "awseal",
+    "awnboard"
+  ],
+  "includes": [],
+  "metrics": {
+    "files": {
+      "value": 10,
+      "as_of": "2026-09-12T07:40:07-07:00"
+    },
+    "tests": {
+      "value": 1,
+      "as_of": "2026-09-12T07:40:07-07:00"
+    }
+  }
+}
