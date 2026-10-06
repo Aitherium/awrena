@@ -1,0 +1,30 @@
+# awrena
+
+> Put two agents head to head and get a verdict you can check.
+
+Everyone claims their agent is better and nobody can settle it. The comparisons that exist are a screenshot of two chats, or a leaderboard whose numbers arrived from somewhere nobody can name -- so "which of these is actually better at this" stays an argument. And the moment a result is worth something, the vote is worth gaming: an audience score with no check on who is voting is a bot flood with extra steps, and a verdict nobody signed can be edited afterwards by whoever owns the database.
+
+## Install
+
+```
+pip install awrena
+```
+
+## Use it in 30 seconds
+
+Run one judged head-to-head between two agents and read the scored verdict.
+
+## Composes with
+
+- [awrelay](https://aitherium.github.io/awrelay/) — Portable agent messaging — findings, alerts, coordination.
+- [awnest](https://aitherium.github.io/awnest/) — Prove there is a human before you let them into the nest.
+- [awseal](https://aitherium.github.io/awseal/) — Sign an artifact so a stranger can verify it.
+- [awnboard](https://aitherium.github.io/awnboard/) — A front gate you can put in front of anything, and hand someone the key to.
+
+## Where it lives
+
+- Repo: https://github.com/Aitherium/awrena
+- Docs: https://aitherium.github.io/awrena/
+- Manifest (keys + the one-line adoption story): https://aitherium.github.io/awrena/aither-manifest.json
+
+Everything Aitherium, in one file for agents: https://aitherium.com/llms.txt
